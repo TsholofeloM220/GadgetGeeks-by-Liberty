@@ -28,6 +28,7 @@ How to View
  GitHub Repository
 This project is hosted on GitHub at:
 [https://github.com/TsholofeloM220/GadgetGeeks-by-Liberty](https://github.com/TsholofeloM220/GadgetGeeks-by-Liberty)
+-Site Map
 
  Changelog
 Part 1 - HTML Structure (Complete)
