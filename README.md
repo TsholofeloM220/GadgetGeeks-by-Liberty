@@ -1,1 +1,0 @@
-# GadgetGeeks-by-Liberty
