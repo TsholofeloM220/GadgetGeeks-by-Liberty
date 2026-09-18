@@ -45,7 +45,7 @@ Part 1 - HTML Structure (Complete)
 - Added contact page with 1 location
 - Added README.md
 
- Part 2 - CSS Styling (Coming Soon)
+ Part 2 - CSS Styling 
 - Add responsive design
 - Apply branding colors
 - Style all pages
@@ -56,9 +56,9 @@ Part 3 - JavaScript (Coming Soon)
 - Shopping cart functionality
 
 
-## 📝 Changelog
+ Changelog
 
-### 🔹 Part 1 — Initial Build (Week 1–4)
+ Part 1 — Initial Build (Week 1–4)
 
 | Date | Change | Author |
 |------|--------|--------|
@@ -82,10 +82,14 @@ Part 3 - JavaScript (Coming Soon)
 
 
 
-
-
  References
-
-Mozilla Developer Network, 2026. HTML: HyperText Markup Language. [online] Available at: https://developer.mozilla.org/en-US/docs/Web/HTML [Accessed 13 August 2026].
-
-Smith, A., 2025. The growing demand for tech accessories in emerging markets. [online] Available at: https://www.techmarketinsights.com/emerging-markets-tech-accessories/ [Accessed 13 August 2026].
+1. GitHub Docs. (2025). About READMEs. [Online]. Available at: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes [Accessed: 16 March 2026].
+2. Google Maps. (2025). 50 Stiemens St, Braamfontein, Johannesburg. [Online]. Available at: https://maps.google.com [Accessed: 15 March 2026].
+3. Mozilla Developer Network (MDN). (2025). CSS: Cascading Style Sheets. [Online]. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS [Accessed: 12 March 2026].
+4. Mozilla Developer Network (MDN). (2025). HTML: HyperText Markup Language. [Online]. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML [Accessed: 12 March 2026].
+5. Pexels. (2025). JBL Flip 6 Bluetooth speaker. [Online image]. Available at: https://pexels.com [Accessed: 10 March 2026].
+6. Pexels. (2025). Modern black smartwatch with fabric strap. [Online image]. Available at: https://pexels.com [Accessed: 10 March 2026].
+7. Pexels. (2025). Ultimate ergonomic laptop desk setup. [Online image]. Available at: https://pexels.com [Accessed: 10 March 2026].
+8. Unsplash. (2025). Wireless earbuds floating in red and blue light. [Online image]. Available at: https://unsplash.com [Accessed: 10 March 2026].
+9. W3Schools. (2025). CSS Flexbox. [Online]. Available at: https://www.w3schools.com/css/css3_flexbox.asp [Accessed: 14 March 2026].
+10. W3Schools. (2025). CSS Grid Layout. [Online]. Available at: https://www.w3schools.com/css/css_grid.asp [Accessed: 14 March 2026].
