@@ -2,6 +2,12 @@
 
 Project Overview
 A professional, responsive website for GadgetGeeks by Liberty M - a premium tech accessories brand. This website showcases products, provides company information, and allows customers to make enquiries.
+GadgetGeeks by Liberty M is a modern, responsive e-commerce style website that showcases premium tech accessories for the modern lifestyle. The brand was founded in 2025 by Liberty M, a visionary South African entrepreneur who believes that tech accessories should not only perform well but also serve as a statement of personal style.
+
+The website is built using HTML5 and CSS3, following semantic markup and responsive design principles. It provides visitors with a clean, dark-themed browsing experience where they can explore products, learn about the brand, submit enquiries, and find contact details.
+
+The project aims to deliver a professional online presence for GadgetGeeks, positioning the brand as Africa's most trusted and stylish tech accessories provider.
+
 
  Student Information
 - Name: Tsholofelo Liberty Marokoane
@@ -49,7 +55,35 @@ Part 3 - JavaScript (Coming Soon)
 - Interactive features
 - Shopping cart functionality
 
- 
+
+## 📝 Changelog
+
+### 🔹 Part 1 — Initial Build (Week 1–4)
+
+| Date | Change | Author |
+|------|--------|--------|
+|  | Created GitHub repository and folder structure | Liberty M |
+| 15 August 2026| Built `index.html` — homepage with hero and featured products | Liberty M |
+| 15 August 2025 | Built `about.html` — brand story, mission, vision, team, stats | Liberty M |
+| 15 August 2025| Built `products.html` — 4 product categories with cards | Liberty M |
+| 15 August 2025| Built `enquiry.html` — full enquiry form | Liberty M |
+| 15 August 2025 | Built `contact.html` — location and Google Map embed | Liberty M |
+| 17 September 2026 | Created `CSS/styles.css` — full dark theme with responsive layout | Liberty M |
+| 17 September 2026 | Linked CSS to all HTML pages | Liberty M |
+| 17 September 2026 | Fixed typos: `viewpoint` → `viewport`, `styles.ss` → `styles.css` | Liberty M |
+| 17 September 2025 | Added class names to sections (`. product-card`, `.mvv-card`, `. team-card`, etc.) | Liberty M |
+| 17 September 2025 | Fixed broken `<title>` in `contact.html` | Liberty M |
+| 17 September 2025 | Fixed stray `<` in `products.html` Add to Cart button | Liberty M |
+| 17 September 2026| Pushed Part 1 to remote repository | Liberty M |
+  
+
+
+
+
+
+
+
+
  References
 
 Mozilla Developer Network, 2026. HTML: HyperText Markup Language. [online] Available at: https://developer.mozilla.org/en-US/docs/Web/HTML [Accessed 13 August 2026].
