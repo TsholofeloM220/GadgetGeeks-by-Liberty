@@ -193,6 +193,38 @@ Part 3 - JavaScript (Coming Soon)
 | 17 September 2026| Pushed Part 1 to remote repository | Liberty M |
   
 
+Part 3 - Enhancing Functionality and SEO
+1. Working through Feedback from Part 2
+Replaced the Google Form iframe with a custom native HTML form to meet the requirement for HTML forms.
+Improved CSS layouts for mobile responsiveness.
+
+2. Dynamic Content and JavaScript Enhancements
+AJAX Form Submission: Implemented fetch API to submit forms asynchronously without reloading the page.
+Client-Side Validation: Added JavaScript error handling for email formats and required fields.
+Interactive Elements:
+
+Built a JavaScript Accordion for the Mission, Vision, and Values section on the About page.
+
+Built an Image Lightbox gallery for the Products page.
+Search Functionality: Added a live search bar to filter products instantly.
+
+3. SEO Optimisation
+On-Page SEO: Unique title tags and meta descriptions for all pages. Proper H1 to H3 heading hierarchy.
+Image Optimisation: Added descriptive alt attributes to all images.
+robots.txt: Created and placed in the root folder to manage search engine crawlers.
+sitemap.xml: Created and placed in the root folder to map website structure.
+
+4. Deployment
+Live Website URL:https://app.netlify.com/teams/tsholofelom220/projects
+
+Changelog (Part 3)
+Date | Change | Author
+[11 November2026] | Removed Google Form and added HTML form with AJAX submission | Liberty M
+[11 November2026] | Added Accordion to About page and Lightbox to Products page | Liberty M
+[11 November2026]| Created robots.txt and sitemap.xml for SEO | Liberty M
+[11 November2026] | Deployed website to Netlify and updated README | Liberty M
+
+
 
 
 
