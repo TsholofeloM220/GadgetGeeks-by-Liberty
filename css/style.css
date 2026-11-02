@@ -1051,3 +1051,40 @@ section:nth-of-type(5) { animation-delay: 0.25s; }
         page-break-inside: avoid;
     }
 }
+    /* Accordion Styles */
+.accordion-btn {
+    background: none;
+    border: none;
+    color: var(--primary-light);
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: var(--font);
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    margin-top: 0;
+}
+
+.accordion-content p {
+    margin-top: 1rem;
+    color: var(--text-muted);
+}
+
+/* When accordion is open */
+.accordion-btn.active {
+    color: var(--accent);
+}
+#product-search:focus {
+    border-color: var(--primary) !important;
+    box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.2);
+}
