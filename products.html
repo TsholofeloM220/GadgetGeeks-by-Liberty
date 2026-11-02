@@ -1,9 +1,12 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products - GadgetGeeks by Liberty M</title>
+    <!-- SEO Meta Description -->
+    <meta name="description" content="Browse premium tech accessories at GadgetGeeks. Shop phone cases, laptop gear, wireless earbuds, and smart wearables.">
+    
     <link rel="stylesheet" href="css/style.css">
 
 
@@ -21,7 +24,7 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="products.html">Products</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="enquiry.html">Enquiry</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -30,7 +33,7 @@
         </div>
     </header>
 
-        <!-- ===== PAGE HEADER ===== -->
+    <!-- ===== PAGE HEADER ===== -->
     <section>
         <div>
             <h1>Our <span>Collection</span></h1>
@@ -38,20 +41,23 @@
         </div>
     </section>
 
-    <!-- ===== SEARCH BAR ===== -->
-    <section style="padding-bottom: 0;">
-        <div style="max-width: 600px; margin: 0 auto; padding: 0 1.5rem;">
-            <input type="text" id="search-bar" placeholder="Search products..." style="width: 100%; padding: 1rem; border-radius: 8px; border: 1px solid rgba(108, 92, 231, 0.4); background: #12122a; color: white; font-size: 1rem; outline: none;">
+    <!-- ===== CATEGORY NAVIGATION ===== -->
+    <section>
+        <div class="category-nav">
+            <a href="#phone">Phone Accessories</a>
+            <a href="#laptop">Laptop Gear</a>
+            <a href="#audio">Audio Collection</a>
+            <a href="#wearables">Smart Wearables</a>
         </div>
     </section>
 
-    <!-- ===== PRODUCTS GRID ===== -->
-    <section id="all-products">
+    <!-- ===== PHONE ACCESSORIES ===== -->
+    <section id="phone" class="product-section">
         <div>
+            <h2>Phone Accessories</h2>
             
-            <!-- Phone Accessories -->
-            <h2 id="phone">Phone Accessories</h2>
-            <div class="product-grid" style="margin-bottom: 3rem;">
+            <div class="product-grid">
+                
                 <!-- Product 1 -->
                 <div class="product-card">
                     <div class="product-image">
@@ -66,11 +72,17 @@
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Laptop Gear -->
-            <h2 id="laptop">Laptop Gear</h2>
-            <div class="product-grid" style="margin-bottom: 3rem;">
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== LAPTOP GEAR ===== -->
+    <section id="laptop" class="product-section">
+        <div>
+            <h2>Laptop Gear</h2>
+            <div class="product-grid">
+                
                 <!-- Product 2 -->
                 <div class="product-card">
                     <div class="product-image">
@@ -86,11 +98,17 @@
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Audio Collection -->
-            <h2 id="audio">Audio Collection</h2>
-            <div class="product-grid" style="margin-bottom: 3rem;">
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== AUDIO COLLECTION ===== -->
+    <section id="audio" class="product-section">
+        <div>
+            <h2>Audio Collection</h2>
+            <div class="product-grid">
+                
                 <!-- Product 3 -->
                 <div class="product-card">
                     <div class="product-image">
@@ -121,11 +139,17 @@
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Smart Wearables -->
-            <h2 id="wearables">Smart Wearables</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SMART WEARABLES ===== -->
+    <section id="wearables" class="product-section">
+        <div>
+            <h2>Smart Wearables</h2>
             <div class="product-grid">
+                
                 <!-- Product 5 -->
                 <div class="product-card">
                     <div class="product-image">
@@ -156,29 +180,10 @@
                         </div>
                     </div>
                 </div>
+                
             </div>
-
         </div>
     </section>
-
-    <!-- Inline Script for Search functionality -->
-    <script>
-        document.getElementById('search-bar').addEventListener('keyup', function() {
-            let searchValue = this.value.toLowerCase();
-            let cards = document.querySelectorAll('.product-card');
-
-            cards.forEach(function(card) {
-                let title = card.querySelector('h3').innerText.toLowerCase();
-                let desc = card.querySelector('.product-desc').innerText.toLowerCase();
-                
-                if (title.includes(searchValue) || desc.includes(searchValue)) {
-                    card.style.display = 'flex';
-                } else {
-                    card.style.display = 'none';
-                }
-            });
-        });
-    </script> 
 
     <!-- ===== FOOTER ===== -->
     <footer>
@@ -187,8 +192,7 @@
                 <div>
                     <h4>GadgetGeeks by Liberty M</h4>
                     <p>Premium tech accessories for the modern lifestyle.</p>
-                    <div>
-                
+                </div>
                 <div>
                     <h4>Quick Links</h4>
                     <ul>
@@ -208,8 +212,8 @@
                 </div>
                 <div>
                     <h4>Contact Info</h4>
-                    <p> Johannesburg, Braamfontein</p>
-                    <p> +27 63 826 7627</p>
+                    <p>Johannesburg, Braamfontein</p>
+                    <p>+27 63 826 7627</p>
                     <p>hello@gadgetgeeks.co.za</p>
                 </div>
             </div>
@@ -218,7 +222,8 @@
             </div>
         </div>
     </footer>
-    <!--===JavaScript===-->
+
+    <!-- THIS IS THE LINE THAT LINKS YOUR JAVASCRIPT -->
     <script src="js/script.js"></script>
 </body>
-</html>
+</html> 
